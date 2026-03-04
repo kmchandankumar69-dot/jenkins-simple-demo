@@ -1,3 +1,3 @@
 #!/bin/bash 
-echo "ise" 
+echo "ise department on news" 
 
