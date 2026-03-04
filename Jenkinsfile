@@ -15,6 +15,11 @@ pipeline {
         sh 'chmod +x script.sh'
         sh './script.sh'
       }
+      stage('Run Python File') {
+            steps {
+                sh 'python3 hello.py'
+            }
+        }
     }
   }
 }
